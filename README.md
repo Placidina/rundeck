@@ -13,3 +13,9 @@ docker-compose up -d
 ```sh
 docker-compose down
 ```
+
+## Access
+
+* Url: [http://localhost](http://localhost)
+* Username: `admin`
+* Password: `admin`
