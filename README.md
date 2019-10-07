@@ -1,15 +1,15 @@
-PostgreSQL Exhibit
-=============
+# Rundeck
 
-Demonstrates configuring Rundeck to use PostgreSQL as an external database.
+Running `rundeck` as container.
 
+## Startup
 
-### Startup
+```sh
+docker-compose up -d
 ```
-docker-compose up
-```
 
-### Teardown
-```
-docker-compose down -v
+## Teardown
+
+```sh
+docker-compose down
 ```
