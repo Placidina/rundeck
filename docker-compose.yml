@@ -15,7 +15,7 @@ services:
             RUNDECK_DATABASE_URL: jdbc:postgresql://postgres/rundeck?autoReconnect=true&useSSL=false
         volumes:
           - data:/home/rundeck/server/data
-          - /home/{$USER}/.ssh:/home/rundeck/.ssh
+          - /home/${USER}/.ssh:/home/rundeck/.ssh
           - ${RUNDECK_LICENSE_FILE:-/dev/null}:/home/rundeck/etc/rundeckpro-license.key
         container_name: rundeck
 
