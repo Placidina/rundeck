@@ -2,7 +2,7 @@ version: '3'
 
 services:
     rundeck:
-        image: ${RUNDECK_IMAGE:-rundeck/rundeck:SNAPSHOT}
+        image: ${RUNDECK_IMAGE:-rundeck/rundeck:3.1.1}
         links:
           - postgres
         tty: true
